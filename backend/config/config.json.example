@@ -1,0 +1,28 @@
+{
+    "database": {
+        "server": "localhost",
+        "port": 1433,
+        "database": "CourtBooking",
+        "username": "your_username",
+        "password": "your_password"
+    },
+    "server": {
+        "port": 8080
+    }
+}
+
+
+# config.json 配置说明
+
+## 数据库配置
+- server: SQL Server 实例名称
+  - localhost 或 . : 默认实例
+  - .\\SQLEXPRESS : Express 版本
+  - .\\INSTANCENAME : 具体命名实例
+- port: 数据库端口号（默认1433）
+- database: 数据库名称
+- trusted_connection: true 表示使用 Windows 身份验证
+
+## 服务器配置
+- port: API 服务器端口号
+

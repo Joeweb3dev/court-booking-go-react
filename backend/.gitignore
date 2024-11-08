@@ -1,0 +1,4 @@
+# .gitignore
+# 创建一个 .gitignore 文件，将敏感信息（如 config.json）排除在版本控制之外：
+
+backend/config/config.json

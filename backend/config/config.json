@@ -1,0 +1,11 @@
+{
+    "database": {
+        "server": "localhost",
+        "port": 1433,
+        "database": "CourtBooking",
+        "trusted_connection": true
+    },
+    "server": {
+        "port": 8080
+    }
+}

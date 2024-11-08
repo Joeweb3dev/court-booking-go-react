@@ -1,0 +1,1 @@
+This is a tennis court booking system, with the backend written in Go and the frontend using the React framework. Currently, there is no database integrated; this demo is for educational purposes only. In the future, Microsoft SQL or MySQL will be added as the database.
